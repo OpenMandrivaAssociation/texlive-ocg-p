@@ -6,7 +6,7 @@
 # catalog-version 0.4
 Name:		texlive-ocg-p
 Version:	0.4
-Release:	7
+Release:	8
 Summary:	PDF OCG support in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ocg-p
