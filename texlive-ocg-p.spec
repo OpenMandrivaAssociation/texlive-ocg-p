@@ -1,18 +1,12 @@
-# revision 28803
-# category Package
-# catalog-ctan /macros/latex/contrib/ocg-p
-# catalog-date 2013-01-11 11:30:29 +0100
-# catalog-license lppl
-# catalog-version 0.4
 Name:		texlive-ocg-p
-Version:	0.4
-Release:	11
+Version:	28803
+Release:	1
 Summary:	PDF OCG support in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ocg-p
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ocg-p.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ocg-p.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ocg-p.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ocg-p.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +19,12 @@ asymptote. Nested OCGs are supported. The package may be used
 with PFDLatex and XeLaTeX.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -49,7 +43,7 @@ with PFDLatex and XeLaTeX.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
