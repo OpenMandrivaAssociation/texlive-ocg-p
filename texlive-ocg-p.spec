@@ -1,6 +1,6 @@
 Name:		texlive-ocg-p
 Version:	28803
-Release:	1
+Release:	2
 Summary:	PDF OCG support in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ocg-p
