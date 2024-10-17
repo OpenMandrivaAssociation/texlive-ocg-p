@@ -3,7 +3,7 @@ Version:	28803
 Release:	2
 Summary:	PDF OCG support in LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ocg-p
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ocg-p
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ocg-p.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ocg-p.doc.r%{version}.tar.xz
